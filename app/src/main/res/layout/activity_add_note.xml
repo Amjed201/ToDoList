@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".EditAddNoteActivity"
+    android:background="#232F34">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textColorHint="#8e8e8e"
+        android:textColor="@android:color/white"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/white"
+        android:textColorHint="#8e8e8e"/>
+
+
+    <Button
+        android:id="@+id/datePicker_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#344955"
+        android:hint="Choose Date"
+        android:textColorHint="#8e8e8e"
+        android:inputType="text"/>
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:id="@+id/editDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8e8e8e"
+        />
+
+
+
+</LinearLayout>
